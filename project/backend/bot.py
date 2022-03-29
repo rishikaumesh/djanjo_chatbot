@@ -15,7 +15,5 @@ def bot_response(message):
         return "Thank you so much"
     elif message=="Kevin":
         return "<h2>LOVE YOU</h2>"
-
-
     else:
         return "Cannot comprehend"
