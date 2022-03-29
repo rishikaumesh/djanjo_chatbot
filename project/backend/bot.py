@@ -10,7 +10,7 @@ def bot_response(message):
     elif "boring" in message: #is bring is there in the message, it will return back the message
         return "<h2>Am i boring to you</h2> " #implementing html factors in the chatbot 
     elif message=="Egor is not funny":
-        return "SO TRUE"
+        return "False"
     elif message=="You are so cool":
         return "Thank you so much"
     else:
