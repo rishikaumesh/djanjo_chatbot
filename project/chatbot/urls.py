@@ -27,6 +27,6 @@ from frontend import views as frontend_views
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path("",frontend_views.frontend),
-    path("sever/", backend_views.backend), #from which url do we want the function to run 
+    #path("sever/", backend_views.backend), #from which url do we want the function to run 
     path("server/get_chat_response",backend_views.get_chat_response),
 ]
